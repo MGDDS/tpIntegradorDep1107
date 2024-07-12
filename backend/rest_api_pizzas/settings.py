@@ -93,7 +93,7 @@ WSGI_APPLICATION = "rest_api_pizzas.wsgi.application"
 DATABASES = {
     "default" :{
         "ENGINE": "django.db.backends.mysql",
-        "NAME": "mga11$backend",
+        "NAME": "mga11$default",
         "USER": "mga11",
         "PASSWORD": "codo_codo",
         "HOST": "mga11.mysql.pythonanywhere-services.com",
